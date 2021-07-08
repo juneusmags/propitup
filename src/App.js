@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MynewComponent from './components/MyNewCompnent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MynewComponent firstName = {"juju"} lastName = {"mags"} age = {"23"} hairColor = {"black"} />
+      <MynewComponent firstName = {"John"} lastName = {"Smith"} age = {"88"} hairColor = {"brown"} />
+      <MynewComponent firstName = {"Millard"} lastName = {"Fillmore"} age = {"50"} hairColor = {"brown"} />
+      <MynewComponent firstName = {"Maria"} lastName = {"Smith"} age = {"62"} hairColor = {"brown"} />
     </div>
   );
 }
